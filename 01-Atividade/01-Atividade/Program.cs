@@ -4,15 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        int a = 10;
-        int b = 20;
+        Console.Write("Digite um número: ");
+        int numero = int.Parse(Console.ReadLine());
 
-        int temp = a;
-        a = b;
-        b = temp;
+        int antecessor = numero - 1;
 
-        Console.WriteLine($"O valor de A é: {a}");
-        Console.WriteLine($"O valor de B é: {b}");
-
+        Console.WriteLine($"O antecessor de {numero} é {antecessor}");
     }
 }
