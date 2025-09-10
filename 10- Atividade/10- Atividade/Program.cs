@@ -16,7 +16,7 @@ class Program
 
         if (media >= 6.0)
         {
-            Console.WriteLine("Aluno APROVADO!");
+            Console.WriteLine("Aluno APROVADO!"); Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela é obrigada ou nao votar esse ano, ou se seu voto é facultativo (não é necessario considerar o mês em que a pessoa nasceu)
         }
         else
         {
